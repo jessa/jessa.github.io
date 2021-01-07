@@ -1,0 +1,20 @@
+- period: 2020-2021
+  course: Information Structures and Implications
+  url: https://onderwijsaanbod.kuleuven.be/syllabi/e/G0W93BE.htm
+  note: A databases course for students with a humanities background
+- period: 2020-2021
+  course: Capita Selecta Artificial Intelligence (PU Learning module)
+  url: https://onderwijsaanbod.kuleuven.be/syllabi/v/n/H05N0AN.htm
+  note: An advanced topics course
+
+#thesis_students:
+#     - student: Tobias Cornille
+#       topic: Expressive Speech Synthesis
+#       year: 2020-2021
+#     - student: Simon Van Baelen & Tuur Vanhoof
+#       topic: Tweet Classification with Positive and Unlabeled Learning
+#       year: 2020-2021
+#     - student: Michiel Baptist
+#       topic: "GeSDD: Learning of tractable SDDs using genetic algorithms."
+#       year: 2018-2019
+

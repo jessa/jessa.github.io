@@ -1,0 +1,35 @@
+---
+layout: page
+permalink: /teaching/
+title: teaching
+blanklines: false
+---
+
+### Lecturer
+
+{% for item in site.data.teaching.lecturer %}
+  <div>
+    <em>{{ item.period }}</em>:
+    <strong>
+	<a href="{{item.url}}">{{ item.course }}</a>
+    </strong>
+
+  	{% if item.note %}
+	    <p>
+	    	{{ item.note }}
+	    </p>
+  	{% endif %}
+  </div>
+{% endfor %}
+
+### Thesis Advisor
+
+<ul>
+{- for item in site.data.teaching.thesis -}
+<div> <li> *{{item.student}}*: {{item.topic}} </li></div>
+{% endfor %}
+</ul>
+
+### Teaching Asistant
+
+### Seminar

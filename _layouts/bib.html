@@ -61,6 +61,7 @@
   {% endif %}
 
   <span class="links">
+  [<a class="bibtex">Bib</a>]
   {% if entry.abstract %}
     [<a class="abstract">Abs</a>]
   {% endif %}
@@ -93,4 +94,11 @@
     <p>{{ entry.abstract }}</p>
   </span>
   {% endif %}
+
+  <!-- Hidden citation block -->
+  <span class="bibtex hidden">
+    <p>{{ entry.bibtex }}</p>
+  </span>
+
+
 </div>
