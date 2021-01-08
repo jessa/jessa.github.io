@@ -16,7 +16,7 @@ The goal of the tutorial is to introduce you to the PU learning field and get an
 5. Biased learning
 6. Incorporation of the labeling mechanism
 
-The tutorial largely follows our survey paper: {% cite bekker2020mlj %}
+The tutorial largely follows our survey paper {% cite bekker2020mlj %}.
 
 {% bibliography --cited %}
 
