@@ -14,7 +14,7 @@ footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyl
   
 
 show_news: true
-show_address: true
+show_address: false
  
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -36,8 +36,8 @@ orcid_id: 0000-0003-1928-7374 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 
-contact_note: >
-  You can reach me on firstname.lastname@kuleuven.be
+#contact_note: >
+#  You can reach me on firstname.lastname@kuleuven.be
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
