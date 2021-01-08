@@ -3,6 +3,8 @@
 # -----------------------------------------------------------------------------
 first_name: Jessa
 last_name: Bekker
+title: Jessa Bekker
+name: Jessa Bekker
 email: jessa.bekker@kuleuven.be
 description: > # this means to ignore newlines until "url:"
   KU Leuven Postdoctoral researcher at the DTAI research group.
@@ -22,27 +24,6 @@ last_updated: # leave blank if you don't want to display last updated
 # KU Leuven integration
 # -----------------------------------------------------------------------------
 ku_leuven_personnel_number: "0098313"
-
-teaching:
-    lecturer:
-         - period: 2020-2021
-           course: Information Structures and Implications
-           url: https://onderwijsaanbod.kuleuven.be/syllabi/e/G0W93BE.htm
-           note: A databases course for students with a humanities background
-         - period: 2020-2021
-           course: Capita Selecta Artificial Intelligence (PU Learning module)
-           url: https://onderwijsaanbod.kuleuven.be/syllabi/v/n/H05N0AN.htm
-           note: An advanced topics course
-    thesis_students:
-         - student: Tobias Cornille
-           topic: Expressive Speech Synthesis
-           year: 2020-2021
-         - student: Simon Van Baelen & Tuur Vanhoof
-           topic: Tweet Classification with Positive and Unlabeled Learning
-           year: 2020-2021
-         - student: Michiel Baptist 
-           topic: GeSDD: Learning of tractable SDDs using genetic algorithms.
-           year: 2018-2019
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -87,7 +68,7 @@ highlighter: rouge #pygments
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude: [vendor, bin]
 
 # Plug-ins
 plugins:
@@ -97,9 +78,29 @@ plugins:
     - jemoji
 
 
+# --------------------
+# Scholar settings
+# --------------------
+scholar:
+    sort_by: year, month
+    order: descending
+    use_raw_bibtex_entry: true
+    bibliography_template: bib
+    bibtex_skip_fields: 
+     - abstract
+     - month_numeric
+     - workshop
+     - code
+     - pdf
+     - supp
+     - slides
+     - poster
+     - arxiv
 # -----------------------------------------------------------------------------
 # Other settings
 # -----------------------------------------------------------------------------
 jquery_version: "1.12.4"
 katex_version: "0.9.0"
 anchorjs_version: "3.2.2"
+
+

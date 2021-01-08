@@ -83,6 +83,7 @@ plugins:
 # --------------------
 scholar:
     sort_by: year, month
+    last_name: Bekker
     order: descending
     use_raw_bibtex_entry: true
     bibliography_template: bib
