@@ -1,18 +1,18 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-first_name: FirstName
-last_name: LastName
-email: yourname@cs.kuleuven.be
+first_name: Jessa
+last_name: Bekker
+email: jessa.bekker@kuleuven.be
 description: > # this means to ignore newlines until "url:"
-  KU Leuven PhD researcher at the DTAI research group.
+  KU Leuven Postdoctoral researcher at the DTAI research group.
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a>.
   <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
   
 
 show_news: true
-show_address: true
+show_address: false
  
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -21,24 +21,23 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # KU Leuven integration
 # -----------------------------------------------------------------------------
-ku_leuven_personnel_number: "0XXXXXX"
+ku_leuven_personnel_number: "0098313"
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+github_username: jessa # your GitHub user name
+twitter_username: jessa_bekker # your Twitter handle
+linkedin_username: jessabekker # your LinkedIn user name
+scholar_userid: S14PODgAAAAJ # your Google Scholar ID
+orcid_id: 0000-0003-1928-7374 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 
-contact_note: >
-  You can reach me on firstname.lastname@kuleuven.be
+#contact_note: >
+#  You can reach me on firstname.lastname@kuleuven.be
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-
+google_analytics: UA-186315180-2 # your google-analytics code
 
 
 # -----------------------------------------------------------------------------
@@ -78,11 +77,11 @@ plugins:
 # -----------------------------------------------------------------------------
 # Scholar settings
 # -----------------------------------------------------------------------------
-use_scholar: false # Set this to true if you want to use jekyll-scholar instead of Lirias.
+use_scholar: true # Set this to true if you want to use jekyll-scholar instead of Lirias.
 
 scholar:
     sort_by: year, month
-    last_name: Lastname # Your last name, this enables underlining your name in your publications
+    last_name: Bekker # Your last name, this enables underlining your name in your publications
     order: descending
     bibliography_template: bib
     bibtex_skip_fields: 
@@ -95,6 +94,7 @@ scholar:
      - poster
      - arxiv
      - video
+     - workshop
 
 # -----------------------------------------------------------------------------
 # Other settings
