@@ -3,9 +3,7 @@
   <div class="wrapper">
 
     {% if page.layout != "about" %}
-    <span class="site-title">
-        <strong>{{ site.first_name }}</strong> {{ site.last_name }}
-    </span>
+    <a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><strong> {{ site.first_name }}</strong> {{ site.last_name }}</a>
     {% endif %}
 
     <nav class="site-nav">
@@ -21,8 +19,6 @@
         </label>
 
       <div class="trigger">
-        <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
 
         {% if site.use_scholar %}
             <a class=<a class="page-link" href="{{ '/publications/' | prepend: site.baseurl | prepend: site.url }}">publications</a>
