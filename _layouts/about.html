@@ -12,6 +12,9 @@ layout: namedpage
         {{ page.profile.address }}
       </div>
     {% endif %}
+    {% if page.social %}
+       {% include social.html %}
+    {% endif %}
   </div>
 {% endif %}
 
