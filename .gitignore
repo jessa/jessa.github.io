@@ -4,6 +4,7 @@ _site
 .DS_store
 .ruby-version
 Gemfile.lock
+.idea/
 vendor
 .bundle
 *.save

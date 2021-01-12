@@ -9,13 +9,12 @@ For more about how to use Jekyll, check out [this tutorial](https://www.taniaras
 
 ### Installation
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system, first fork the theme to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby v2](https://www.ruby-lang.org/en/downloads/) (Ruby+Devkit on Windows) and [Bundler](https://bundler.io/) installed on your system, first fork the theme to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
 $ cd <your-repo-name>
 $ bundle install
-$ bundle exec jekyll serve
 ```
 
 ### Configuration
@@ -33,6 +32,7 @@ bundle exec jekyll serve --watch
 - Your last name in ```last_name```
 - Your personnel number in ```ku_leuven_personnel_number``` to link up your publications (number AFTER the u)
 - Your social media profiles that you would like to link 
+- `show_news` to `false` if you don't want to post news message on your website.
 
 
 3. Go to ```_pages/about.md``` and fill in your own biography to display.
